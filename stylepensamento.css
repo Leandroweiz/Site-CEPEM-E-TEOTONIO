@@ -1,4 +1,4 @@
-body {background-color: lightgreen;}
+body {background: linear-gradient(white, yellow, black, orange, red);}
 title {width: 100%;}
 li {color: Green;}
 p {color: blue;font-family: verdana;}

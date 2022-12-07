@@ -1,4 +1,4 @@
-body {background-color: black;}
+body {background: linear-gradient(gray, black, white, yellow);}
 title {width: 70%;}
 h1 {color: red;}
 li {color: grey;}

@@ -1,5 +1,5 @@
 
-body {background-color: lightblue;}
+body {background: linear-gradient(gray, yellow, white, orange, purple);}
 title {width: 100%;}
 li {color: Green;}
 p {color: red;font-family: verdana;}
