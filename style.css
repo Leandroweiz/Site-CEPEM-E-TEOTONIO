@@ -10,7 +10,8 @@ footer {background: grey;}
   border-width: 4px ;
   display: block;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+  align: left; }
 
 #logo {width:10%;
   border-color:#000000 ;
@@ -28,17 +29,23 @@ footer {background: grey;}
     margin-left: auto;
     margin-right: auto;}
 
+nav {
+    	position: absolute;
+    	top: 10%;
+    	right: 0;
+    }
 nav li {display: inline;
-    	margin:0 0 0 100px;}
+    	margin:0 0 0 3%;}
 
-a {margin-left: 240px; }
+a {margin-left: auto; }
 
 nav a {
 	text-transform: uppercase;
 	color: white;
 	font-weight: bold;
-	font-size: 90px;
-	text-decoration: none;}
+	font-size: 50%;
+	text-decoration: none;
+}
 
 nav a:hover {
       color: #FF4500;
@@ -67,6 +74,8 @@ a {text-decoration: none;
     transition: 400ms;
     box-shadow: 10px 10px #000000;}
 
+.foto {align-items: center;}
+
 .sala:hover {opacity: 1;}
 
 #foto3 {width:40%;
@@ -79,22 +88,52 @@ a {text-decoration: none;
   margin-left: auto;
   margin-right: auto;}
 
-h2 {background: #FFFFFF;padding: 100px;
+h2 {background: #FFFFFF;padding: 10%;
 border-color:#000000 ;
 border-style: solid ;
-border-width: 8px ;
+border-width: 10%;
 text-align: center;}
 h2 {text-align: center;}
-h2 {font-size: 200px;}
+h2 {font-size: 200%;}
 
-.titulo-principal {fonte-size: 70%;}
+.titulo-principal {fonte-size: auto;}
 
 .titulo-centralizado {text-align: center;}
 
 h1 {text-align: center;}
-h1 {font-size: 200px;}
+h1 {font-size: 200%;}
 
 p {text-align: center;}
-p {font-size: 200px;}
+p {font-size: 100%;}
 
-li {font-size: 120px;}
+li {font-size: 50%;}
+
+@media screen and (max-width: 480px) {
+  body, title, .titulo-principal, nav li, #logo, #foto3, .sala, #foto2, #banner, .fotos, div, header, .banner, .rodabe {width: auto;}
+
+h1 {font-size: 150%;}
+h2 {font-size: 150%;}
+
+nav {
+	position: absolute;
+	top: 10%;
+	right: 0;}
+
+.foto {align-items: center;}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 200%;
+	text-decoration: none;
+}
+#foto2 {width:47.5%;
+    border-color:#000000;
+    border-style: solid ;
+    border-width: 4px ;}
+#foto3 {width:47.5%;
+    border-color:#000000;
+    border-style: solid ;
+    border-width: 4px ;}
+}

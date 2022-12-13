@@ -9,18 +9,27 @@ header {
 
 .caixa {
 	position: relative;
-	width: 1300px;
+	width: 120%;
 	margin: 0 auto;
 }
 
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 300%;
+	text-decoration: none;}
+
 nav {
 	position: absolute;
-	top: 110px;
+	top: 10%;
 	right: 0;}
+
+a {margin-left: center; }
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 5%;
 }
 
 nav a {
@@ -117,3 +126,31 @@ td, th {
 }
 
 label {font-size: 40px;}
+
+@media screen and (max-width: 480px) {
+	body, title, .titulo-principal, nav li, #logo, #foto3, .sala, #foto2, #banner, .fotos, div, header, .banner, .rodabe {width: auto;}
+
+h1 {font-size: 150%;}
+h2 {font-size: 150%;}
+
+nav {
+	position: absolute;
+	top: 10%;
+	right: 0;}
+
+.foto {align-items: center;}
+
+.Identificação {
+						position: absolute;
+						width: 100%;
+						margin: 0 auto;}
+nav a {
+			text-transform: uppercase;
+			color: white;
+			font-weight: bold;
+			font-size: 100%;
+			text-decoration: none;}
+ul { font-size: 200%;}
+p {font-size: 300%;}
+
+}
